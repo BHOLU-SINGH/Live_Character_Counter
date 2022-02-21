@@ -4,8 +4,10 @@
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title>Live Character Counter | Mini Project</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="keywords" content="free projects1, special learning, get free source code, bholu singh">
+	<meta name="description" content="">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="container">
@@ -13,6 +15,7 @@
 		<textarea placeholder="Write your text here..." onkeyup="countLetters();"></textarea>
 		<p>Total Characters : <span class="count">0</span></p>
 	</div>
+	
 	<script type="text/javascript">
 		const textarea = document.querySelector('textarea');
 		const count = document.querySelector('.count');
@@ -21,6 +24,7 @@
 			const text = textarea.value;
 			const textLength = textarea.value.length;
 			count.innerHTML = `${textLength}`;
+			// count.innerHTML = textLength;
 		}
 	</script>
 </body>
